@@ -5,7 +5,7 @@ from keystoneclient.v3 import client as kClient
 auth = identity.V3Password(auth_url='http://192.168.49.10/identity',
                            username='admin',
                            user_domain_name='Default',
-                           password='ckddmlrhks401!',
+                           password='password',   #input your passwaord
                            project_name='admin',
                            project_domain_name='Default')
 
